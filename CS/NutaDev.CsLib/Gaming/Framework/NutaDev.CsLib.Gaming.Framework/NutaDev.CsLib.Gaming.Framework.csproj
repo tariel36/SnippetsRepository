@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C93FD852-0DBB-4975-99D9-EB2C6F594C3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NutaDev.CsLib.Gaming.Framework</RootNamespace>
+    <AssemblyName>NutaDev.CsLib.Gaming.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>false</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Internal\NutaDev.CsLib.Internal.Shared\App\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HitBoxes\Models\Specific\HitBoxGenerationArguments.cs" />
+    <Compile Include="HitBoxes\Models\Specific\HitBoxGenerationMode.cs" />
+    <Compile Include="HitBoxes\Services\HitBoxService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextureAtlases\Models\Specific\ImageInfo.cs" />
+    <Compile Include="TextureAtlases\Models\Specific\SubTexture.cs" />
+    <Compile Include="TextureAtlases\Models\Specific\TextureAtlas.cs" />
+    <Compile Include="TextureAtlases\Services\Specific\SpriteSheetGeneratorService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HitBoxes\Models\Abstract\" />
+    <Folder Include="TextureAtlases\Models\Abstract\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Collections\NutaDev.CsLib.Collections\NutaDev.CsLib.Collections.csproj">
+      <Project>{f0019a46-b8a5-4b62-960f-6ad02c759488}</Project>
+      <Name>NutaDev.CsLib.Collections</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\Maintenance\NutaDev.CsLib.Maintenance.Exceptions\NutaDev.CsLib.Maintenance.Exceptions.csproj">
+      <Project>{54060194-F8F2-4DA9-AD68-B78817B68929}</Project>
+      <Name>NutaDev.CsLib.Maintenance.Exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NutaDev.CsLib.Gaming\NutaDev.CsLib.Gaming.csproj">
+      <Project>{3A0389CC-2DB7-4430-AB48-25501BF9A5F7}</Project>
+      <Name>NutaDev.CsLib.Gaming</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

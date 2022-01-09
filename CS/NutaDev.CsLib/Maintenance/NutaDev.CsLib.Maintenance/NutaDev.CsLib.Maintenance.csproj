@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>false</Deterministic>
+    <Authors>tariel36</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Internal\NutaDev.CsLib.Internal.Shared\App\SharedAssemblyInfo.cs" Link="App\SharedAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Resources\NutaDev.CSLib.Resources\NutaDev.CsLib.Resources.csproj" />
+    <ProjectReference Include="..\..\Structures\NutaDev.CsLib.Structures\NutaDev.CsLib.Structures.csproj" />
+    <ProjectReference Include="..\..\Types\NutaDev.CsLib.Types\NutaDev.CsLib.Types.csproj" />
+    <ProjectReference Include="..\NutaDev.CsLib.Maintenance.Exceptions\NutaDev.CsLib.Maintenance.Exceptions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="App\" />
+  </ItemGroup>
+
+</Project>

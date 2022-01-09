@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnExceptionOccuredDuringDeserialization" xml:space="preserve">
+    <value>An exception occured during deserialization.</value>
+  </data>
+  <data name="Argument_0_IsNull" xml:space="preserve">
+    <value>Argument `{0}` is null.</value>
+  </data>
+  <data name="Argument_0_IsOutOfRange" xml:space="preserve">
+    <value>Argument `{0}` is out of range.</value>
+  </data>
+  <data name="BothMatrixesMustHaveEqualSize_0_x_1_And_2_x_3_" xml:space="preserve">
+    <value>Both matrixes must have equal size - `{0}` x `{1}` - and - `{2}` x `{3}`.</value>
+  </data>
+  <data name="DuplicateFunctionDeclaration" xml:space="preserve">
+    <value>Duplicate function declaration, name: `{0}`, header: `{1}`.</value>
+  </data>
+  <data name="DuplicateValue_0_" xml:space="preserve">
+    <value>Duplicate value `{0}`.</value>
+  </data>
+  <data name="EventSourceIsNot_0_" xml:space="preserve">
+    <value>Event source is not `{0}`.</value>
+  </data>
+  <data name="FailedToEvaluateExpression" xml:space="preserve">
+    <value>Failed to evaluate expression.</value>
+  </data>
+  <data name="FailedToOpenConnection" xml:space="preserve">
+    <value>Failed to open connection.</value>
+  </data>
+  <data name="Function_0_NotFound" xml:space="preserve">
+    <value>Function `{0}` not found.</value>
+  </data>
+  <data name="HighResolutionNotSupported" xml:space="preserve">
+    <value>High resolution not supported.</value>
+  </data>
+  <data name="Index_0_IsOutOfRange" xml:space="preserve">
+    <value>Index `{0}` is out of range.</value>
+  </data>
+  <data name="Index_0_MaxIndex_1" xml:space="preserve">
+    <value>Index `{0}`, max index: `{1}`.</value>
+  </data>
+  <data name="InvalidCharacter_0_At0BasedPosition_1_" xml:space="preserve">
+    <value>Invalid character `{0}` at 0-based position `{1}`.</value>
+  </data>
+  <data name="InvalidOffset" xml:space="preserve">
+    <value>Invalid offset.</value>
+  </data>
+  <data name="InvalidTokenType" xml:space="preserve">
+    <value>Invalid token type, expected: `{0}`, was: `{1}`.</value>
+  </data>
+  <data name="InvalidTokenValue" xml:space="preserve">
+    <value>Invalid token value, expected: `{0}`, was: `{1}`.</value>
+  </data>
+  <data name="Key_0_AlreadyExists" xml:space="preserve">
+    <value>Key `{0}` already exists.</value>
+  </data>
+  <data name="Key_0_AlreadyExistsAndReplacingIsNotAllowed" xml:space="preserve">
+    <value>Key `{0}` already exists and replacing is not allowed.</value>
+  </data>
+  <data name="Key_0_DoesNotExist" xml:space="preserve">
+    <value>Key `{0}` does not exist.</value>
+  </data>
+  <data name="Matrix_0_ColumnCount_1_MustBeEqualToMatrix_2_RowCount_3_" xml:space="preserve">
+    <value>Matrix `{0}` column count `{1}` must be equal to matrix `{2}` row count `{3}`.</value>
+  </data>
+  <data name="MinimumIsEqualToMaximumWithExlusiveFlagsMinimum_0_Maximum_1_ExclusiveMaximum_2_ExclusiveMinimum_3_" xml:space="preserve">
+    <value>Minimum is equal to maximum with exclusive flags. Minimum = `{0}`, Maximum = `{1}`, Exclusive maximum =  `{2}`, Exclusive minimum = `{3}`.</value>
+  </data>
+  <data name="MismatchedParentheses" xml:space="preserve">
+    <value>Mismatched parentheses.</value>
+  </data>
+  <data name="MisplacedParenthesisOrArgumentSeparator" xml:space="preserve">
+    <value>Misplaced parenthesis or argument separator.</value>
+  </data>
+  <data name="MissingDiceEvaluator" xml:space="preserve">
+    <value>Missing dice evaluator.</value>
+  </data>
+  <data name="MissingLeftOperand" xml:space="preserve">
+    <value>Missing left operand.</value>
+  </data>
+  <data name="MissingRightOperand" xml:space="preserve">
+    <value>Missing right operand.</value>
+  </data>
+  <data name="MissingTicks" xml:space="preserve">
+    <value>Missing ticks.</value>
+  </data>
+  <data name="NoEnoughSpaceGot_0_Expected_1_" xml:space="preserve">
+    <value>No enough space. Got `{0}`, expected `{1}`.</value>
+  </data>
+  <data name="ObjectIsAlreadyDisposed" xml:space="preserve">
+    <value>Object is already disposed.</value>
+  </data>
+  <data name="OperatorNotSupported" xml:space="preserve">
+    <value>Operator not supported, type: `{0}`, value: `{1}`.</value>
+  </data>
+  <data name="The_0_IsNot_1_" xml:space="preserve">
+    <value>The `{0}` is not `{1}`.</value>
+  </data>
+  <data name="Type_0_IsNotAnEnum" xml:space="preserve">
+    <value>Type `{0}` is not an enum.</value>
+  </data>
+  <data name="UnknownFunction" xml:space="preserve">
+    <value>Unknown function: `{0}`.</value>
+  </data>
+  <data name="YouCantStartAnotherTaskIfYouHaventCancelledPreviousOne" xml:space="preserve">
+    <value>You can't start another task if you haven't cancelled previous one.</value>
+  </data>
+  <data name="_0_IsNotImplemented" xml:space="preserve">
+    <value>`{0}` is not implemented.</value>
+  </data>
+  <data name="_0_isObsolete" xml:space="preserve">
+    <value>`{0}` is obsolete!</value>
+  </data>
+  <data name="_0_NotFound" xml:space="preserve">
+    <value>`{0}` not found.</value>
+  </data>
+  <data name="NoDiscsInCue_0_" xml:space="preserve">
+    <value>No discs in CUE file `{0}`.</value>
+  </data>
+  <data name="NoTracksInCueFile_0_" xml:space="preserve">
+    <value>No tracks in CUE file `{0}`.</value>
+  </data>
+  <data name="CompilationError_0__1_" xml:space="preserve">
+    <value>Compilation error `{0}`, Message: `{1}`.</value>
+  </data>
+  <data name="Directory_0_NotFound" xml:space="preserve">
+    <value>Directory `{0}` not found.</value>
+  </data>
+  <data name="FailedToLoad_0_Assembly" xml:space="preserve">
+    <value>Failed to load `{0}` assembly.</value>
+  </data>
+  <data name="File_0_NotFound" xml:space="preserve">
+    <value>File `{0}` not found.</value>
+  </data>
+  <data name="MoreThanOneCueFileInDirectory_0_" xml:space="preserve">
+    <value>More than one CUE file in directory `{0}`.</value>
+  </data>
+  <data name="NoCueFilesInDirectory_0_" xml:space="preserve">
+    <value>No CUE files in directory `{0}`.</value>
+  </data>
+  <data name="ConvertBackTargetType_0_" xml:space="preserve">
+    <value>ConvertBack, target type `{0}`.</value>
+  </data>
+  <data name="ConvertTargetType_0_" xml:space="preserve">
+    <value>Convert, target type `{0}`.</value>
+  </data>
+  <data name="NoMoreElementsInSequence" xml:space="preserve">
+    <value>No more elements in sequence.</value>
+  </data>
+  <data name="NoPropertyGroupFoundInFile_0_" xml:space="preserve">
+    <value>No property group found in file `{0}`.</value>
+  </data>
+  <data name="NoTargetFrameworkForFile" xml:space="preserve">
+    <value>No target framework for file.</value>
+  </data>
+  <data name="ServiceDescriptionIsRequired" xml:space="preserve">
+    <value>Service description is required.</value>
+  </data>
+  <data name="TriedToInserIntoRootNodeButNodeIsNotARoot" xml:space="preserve">
+    <value>Tried to insert into root node, but node is not a root.</value>
+  </data>
+  <data name="_0_MustBeGreaterThanZero" xml:space="preserve">
+    <value>`{0}` must be greater than zero.</value>
+  </data>
+  <data name="_0_MustBeSmallerThanCollectionSize" xml:space="preserve">
+    <value>`{0}` must be smaller than collection size.</value>
+  </data>
+</root>

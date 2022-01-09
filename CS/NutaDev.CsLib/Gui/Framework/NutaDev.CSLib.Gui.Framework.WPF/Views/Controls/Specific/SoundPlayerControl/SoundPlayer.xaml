@@ -1,0 +1,59 @@
+<!--
+The MIT License (MIT)
+
+Copyright (c) 2022 tariel36
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+-->
+
+<UserControl x:Class="NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.SoundPlayerControl.SoundPlayer"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="30" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Label x:Name="InfoLabel" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Center" />
+
+        <Slider x:Name="ProgressSlider" Grid.Row="1" Grid.Column="0" Interval="1"
+                MouseWheel="ProgressSlider_OnMouseWheel" ValueChanged="ProgressSlider_OnValueChanged" />
+
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center">
+            <Button x:Name="BackwardFar" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40" Height="23" Margin="2" Content="&lt;&lt;" Click="BackwardFar_OnClick" />
+            <Button x:Name="BackwardNear" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40" Height="23" Margin="2" Content="&lt;" Click="BackwardNear_OnClick" />
+            <Button x:Name="Stop" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40" Height="23" Margin="2" Content="&#9209;" Click="Stop_OnClick" />
+            <Button x:Name="Play" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40" Height="23" Margin="2" Content="&#10704;" Click="Play_OnClick" />
+            <Button x:Name="Pause" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40" Height="23" Margin="2" Content="&#9208;" Click="Pause_OnClick" />
+            <Button x:Name="ForwardNear" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40" Height="23" Margin="2" Content="&gt;" Click="ForwardNear_OnClick" />
+            <Button x:Name="ForwardFar" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Width="40" Height="23" Margin="2" Content="&gt;&gt;" Click="ForwardFar_OnClick" />
+
+            <Slider x:Name="VolumeSlider" Margin="2" Width="100" MinHeight="20" Height="20" MaxHeight="20"
+                    Minimum="0" Maximum="100" Value="100" Interval="1"
+                    MouseWheel="VolumeSlider_OnMouseWheel" ValueChanged="VolumeSlider_OnValueChanged" />
+        </StackPanel>
+    </Grid>
+</UserControl>

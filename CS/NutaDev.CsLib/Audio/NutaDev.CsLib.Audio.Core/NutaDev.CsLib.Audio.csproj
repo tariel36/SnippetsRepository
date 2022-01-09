@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Deterministic>false</Deterministic>
+    <Authors>tariel36</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Internal\NutaDev.CsLib.Internal.Shared\App\SharedAssemblyInfo.cs" Link="App\SharedAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="App\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Maintenance\NutaDev.CsLib.Maintenance.Exceptions\NutaDev.CsLib.Maintenance.Exceptions.csproj" />
+    <ProjectReference Include="..\..\Types\NutaDev.CsLib.Types.RegularExpressions\NutaDev.CsLib.Types.RegularExpressions.csproj" />
+  </ItemGroup>
+
+</Project>
