@@ -60,7 +60,7 @@ Below is the screenshot of live translation of Japanese streamer I watched.
 As you can see, the translation is not the best, but it seems that Japanese is not that easy to translate and transcribe (also there are various limitations, see below). With other languages I had a bit more luck.
 
 ## Additional issues
-For some reason, Chromium based browsers (maybe others too, I tested on Vivaldi, Chrome and Opera) like to control gain of your microphone during conversations. I tried various settings within browsers with no luck. Then I found an extension that solved the problem - [Disable Automatic Gain Control](Disable Automatic Gain Control). You can install this extension, start the conversation and then allow it to work. You can follow instructions in the extension's readme to set it properly.
+For some reason, Chromium based browsers (maybe others too, I tested on Vivaldi, Chrome and Opera) like to control gain of your microphone during conversations. I tried various settings within browsers with no luck. Then I found an extension that solved the problem - [Disable Automatic Gain Control](https://chrome.google.com/webstore/detail/disable-automatic-gain-co/clpapnmmlmecieknddelobgikompchkk). You can install this extension, start the conversation and then allow it to work. You can follow instructions in the extension's readme to set it properly.
 
 ## Limitations
 This solution is not always accurate. The accuracy depends on the speaker, selected language and so on, but it is possible to work with that. Since it uses `Stereo Mix`, the more sounds your PC emits, the more noise it generates, so best results will be received if you don't play more sounds that is minimum required.
