@@ -20,6 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#ifndef NUTADEV_CPPLIB_THREADING_TYPES_TYPES_HPP
+#define NUTADEV_CPPLIB_THREADING_TYPES_TYPES_HPP
+
 #include <thread>
 #include <mutex>
 #include <functional>
@@ -46,3 +49,6 @@ namespace NutaDev
         }
     }
 }
+
+
+#endif

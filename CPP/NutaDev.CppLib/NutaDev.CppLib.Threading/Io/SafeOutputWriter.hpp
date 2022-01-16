@@ -57,7 +57,7 @@ namespace NutaDev
                     template<typename T, typename... Args>
                     static void Write(T value, Args... args)
                     {
-                        LockGuardMutex lock(_mutex);
+                        NutaDev::CppLib::Threading::Types::LockGuardMutex lock(_mutex);
 
                         std::cout << StringConverter::ToString(value, args ...);
                     }
