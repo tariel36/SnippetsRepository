@@ -78,6 +78,8 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
 
             CreateInfo(provider, OnXamlFileAction, "xaml");
             CreateInfo(provider, OnCsFileAction, "cs");
+            CreateInfo(provider, OnCppFileAction, "cpp");
+            CreateInfo(provider, OnHppFileAction, "hpp");
 
             foreach (LicenseInfo info in LicenseTextByExtension.Values)
             {
@@ -100,7 +102,8 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
                 CopyrightText = provider.GetCopyright(Author, extension),
                 FirstLine = provider.GetLicenseText(0, Author, extension),
                 FileAction = action,
-                Filter = $"*.{extension}"
+                Filter = $"*.{extension}",
+                Clear = new [] { "cpp", "hpp" }.Contains(extension)
             };
         }
 
@@ -111,6 +114,24 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
         private void OnXamlFileAction(string filePath)
         {
             OnFileAction(LicenseTextByExtension["xaml"], filePath);
+        }
+
+        /// <summary>
+        /// Handles actions when certain CPP file is found.
+        /// </summary>
+        /// <param name="filePath">Absolute path to file.</param>
+        private void OnCppFileAction(string filePath)
+        {
+            OnFileAction(LicenseTextByExtension["cpp"], filePath);
+        }
+
+        /// <summary>
+        /// Handles actions when certain HPP file is found.
+        /// </summary>
+        /// <param name="filePath">Absolute path to file.</param>
+        private void OnHppFileAction(string filePath)
+        {
+            OnFileAction(LicenseTextByExtension["hpp"], filePath);
         }
 
         /// <summary>
@@ -135,9 +156,10 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
         private void OnFileAction(LicenseInfo info, string filePath)
         {
             string fileText = File.ReadAllText(filePath);
-            string firstLine = fileText.Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries).First();
+            string[] lines = fileText.Split(new[] { "\r\n", "\n" }, StringSplitOptions.None);
+            string firstLine = lines.First();
 
-            if (string.Equals(firstLine, info.FirstLine))
+            if (!info.Clear && string.Equals(firstLine, info.FirstLine))
             {
                 if (!fileText.Contains(info.CopyrightText))
                 {
@@ -146,9 +168,36 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
                     File.WriteAllText(filePath, fileText);
                 }
             }
-            else if (firstLine.StartsWith("//"))
+            else if (info.Clear || firstLine.StartsWith("//"))
             {
-                Console.WriteLine($"File `{filePath}` has different license.");
+                if (!info.Clear)
+                {
+                    Console.WriteLine($"File `{filePath}` has different license.");
+                    return;
+                }
+
+                if (fileText.StartsWith(info.Text))
+                {
+                    return;
+                }
+
+                string line;
+                int lineIdx;
+                for (lineIdx = 0; lineIdx < lines.Length; ++lineIdx)
+                {
+                    line = lines[lineIdx];
+
+                    if (string.IsNullOrWhiteSpace(line))
+                    {
+                        break;
+                    }
+                }
+
+                lines = lines.Skip(lineIdx + 1).ToArray();
+                fileText = string.Join("\r\n", lines);
+
+                fileText = info.Text + fileText;
+                File.WriteAllText(filePath, fileText);
             }
             else
             {
@@ -186,6 +235,11 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
             /// File action.
             /// </summary>
             public Action<string> FileAction;
+
+            /// <summary>
+            /// Indicates whether license should be cleared.
+            /// </summary>
+            public bool Clear;
         }
     }
 }

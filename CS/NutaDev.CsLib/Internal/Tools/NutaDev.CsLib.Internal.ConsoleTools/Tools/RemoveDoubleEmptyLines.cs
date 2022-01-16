@@ -46,6 +46,9 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
         /// </summary>
         public string RootPath { get; }
 
+        /// <summary>
+        /// Gets double line regex.
+        /// </summary>
         private Regex DoubleLineRegex { get; }
 
         /// <summary>

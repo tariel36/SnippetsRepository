@@ -81,6 +81,8 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
             {
                 new FileTypesToCheck() { Filter = "*.cs", OnFileAction = OnCsFileAction },
                 new FileTypesToCheck() { Filter = "*.xaml", OnFileAction = OnXamlFileAction },
+                new FileTypesToCheck() { Filter = "*.cpp", OnFileAction = OnCppFileAction },
+                new FileTypesToCheck() { Filter = "*.hpp", OnFileAction = OnHppFileAction },
             };
 
             foreach (FileTypesToCheck fileType in toCheck)
@@ -96,7 +98,34 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
         /// Find comments in CS files.
         /// </summary>
         /// <param name="filePath">Absolute path.</param>
+        private void OnCppFileAction(string filePath)
+        {
+            OnCLikeFileAction(filePath);
+        }
+
+        /// <summary>
+        /// Find comments in CS files.
+        /// </summary>
+        /// <param name="filePath">Absolute path.</param>
+        private void OnHppFileAction(string filePath)
+        {
+            OnCLikeFileAction(filePath);
+        }
+
+        /// <summary>
+        /// Find comments in CS files.
+        /// </summary>
+        /// <param name="filePath">Absolute path.</param>
         private void OnCsFileAction(string filePath)
+        {
+            OnCLikeFileAction(filePath);
+        }
+
+        /// <summary>
+        /// Find comments in CS files.
+        /// </summary>
+        /// <param name="filePath">Absolute path.</param>
+        private void OnCLikeFileAction(string filePath)
         {
             if (IgnoredExtensions.Any(x => filePath.EndsWith(x)))
             {

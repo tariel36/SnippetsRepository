@@ -93,6 +93,8 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Files
 
             switch (extension)
             {
+                case "hpp":
+                case "cpp":
                 case "cs":
                 {
                     return $"// {licenseText.Replace("\r\n", "\n").Replace("\n", "\r\n// ")}\r\n\r\n";
@@ -121,6 +123,8 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Files
 
             switch (extension)
             {
+                case "hpp":
+                case "cpp":
                 case "cs":
                 {
                     return $"// {GetCopyright(author)}";

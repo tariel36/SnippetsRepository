@@ -1,5 +1,5 @@
-// The MIT License (MIT)
-//
+﻿// The MIT License (MIT)
+// 
 // Copyright (c) 2022 tariel36
 // 
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,21 +21,23 @@
 // SOFTWARE.
 
 using NutaDev.CsLib.Internal.ConsoleTools.Files;
+using System.IO;
 
 namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
 {
     /// <summary>
-    /// Provides means to append new line at the end of cs file.
+    /// Removes double empty lines.
     /// </summary>
-    public class EofAppender
+    public class CodeToSingleFile
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="EofAppender"/> class.
+        /// Initializes a new instance of the <see cref="CodeToSingleFile"/> class.
         /// </summary>
         /// <param name="rootPath">Root path of solution.</param>
-        public EofAppender(string rootPath)
+        public CodeToSingleFile(string rootPath)
         {
             RootPath = rootPath;
+            OutFile = "out.txt";
         }
 
         /// <summary>
@@ -44,11 +46,21 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
         public string RootPath { get; }
 
         /// <summary>
+        /// Gets output file path.
+        /// </summary>
+        private string OutFile { get; }
+
+        /// <summary>
         /// Executes the script.
         /// </summary>
         public void Execute()
         {
-            string[] extensions = new[] { "cs", "hpp", "cpp" };
+            File.WriteAllText(OutFile, string.Empty);
+
+            string[] extensions = new[]
+            {
+                "cpp", "hpp"
+            };
 
             foreach (string ext in extensions)
             {
@@ -61,13 +73,9 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
         /// Handles actions when certain file is found.
         /// </summary>
         /// <param name="fullFilePath">Absolute path to file.</param>
-        private void OnFileAction(string filePath)
+        private void OnFileAction(string fullFilePath)
         {
-            string fileText = System.IO.File.ReadAllText(filePath).Trim();
-
-            fileText += "\r\n";
-
-            System.IO.File.WriteAllText(filePath, fileText);
+            File.AppendAllText(OutFile, File.ReadAllText(fullFilePath));
         }
     }
 }

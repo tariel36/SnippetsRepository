@@ -38,9 +38,16 @@ namespace NutaDev.CsLib.Internal.ConsoleTools
             const string author = "tariel36";
             const string rootPath = @"";
 
-            int[] tasks = new int[] { 1, 2, 0, 5, 3 };
+            // CS
+            //int[] tasks = new int[] { 1, 2, 0, 5, 3 };
             //int[] tasks = new int[] { 4 };
             //int[] tasks = new int[] { 5 };
+            //int[] tasks = new int[] { 0 };
+            //int[] tasks = new int[] { 6 };
+            //int[] tasks = new int[] { 8 };
+
+            // CPP
+            int[] tasks = new int[] { 0, 5, 6, 7, 3 };
 
             foreach (int task in tasks)
             {
@@ -74,6 +81,21 @@ namespace NutaDev.CsLib.Internal.ConsoleTools
                     case 5:
                     {
                         new RemoveDoubleEmptyLines(rootPath).Execute();
+                        break;
+                    }
+                    case 6:
+                    {
+                        new TabsToSpaces(rootPath).Execute();
+                        break;
+                    }
+                    case 7:
+                    {
+                        new NamespaceFix(rootPath).Execute();
+                        break;
+                    }
+                    case 8:
+                    {
+                        new CodeToSingleFile(rootPath).Execute();
                         break;
                     }
                 } 
