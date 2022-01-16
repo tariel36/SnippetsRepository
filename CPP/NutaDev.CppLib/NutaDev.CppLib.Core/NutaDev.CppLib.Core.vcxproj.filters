@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Converters">
+      <UniqueIdentifier>{97ebb6ec-9822-4bfc-bc4f-069ff06aa56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structures">
+      <UniqueIdentifier>{09a74d96-7fd2-4912-8b24-8b7083828246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structures\Uuid">
+      <UniqueIdentifier>{c97f2b08-8d77-4743-936e-b308042ff5b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Converters\conversion.hpp">
+      <Filter>Source Files\Converters</Filter>
+    </ClInclude>
+    <ClInclude Include="Structures\Uuid\Uuid.hpp">
+      <Filter>Source Files\Structures\Uuid</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Structures\Uuid\Uuid.cpp">
+      <Filter>Source Files\Structures\Uuid</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

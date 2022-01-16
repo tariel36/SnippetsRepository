@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Logging">
+      <UniqueIdentifier>{0b33cede-fb0a-45d2-9de7-33a5226d23af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logging\EndLogManipulator">
+      <UniqueIdentifier>{8e402aa7-7d5b-4177-a59c-20126d53c01c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logging\Log">
+      <UniqueIdentifier>{8e118b7d-b1bd-44b2-8e57-f78bfc2ad21b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Logging\EndLogManipulator\EndLogManipulator.cpp">
+      <Filter>Source Files\Logging\EndLogManipulator</Filter>
+    </ClCompile>
+    <ClCompile Include="Logging\Log\Log.cpp">
+      <Filter>Source Files\Logging\Log</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logging\EndLogManipulator\EndLogManipulator.hpp">
+      <Filter>Source Files\Logging\EndLogManipulator</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\Log\Log.hpp">
+      <Filter>Source Files\Logging\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\LogLevel.hpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging\ForwardDeclarations.hpp">
+      <Filter>Source Files\Logging</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Constants">
+      <UniqueIdentifier>{e813da49-1d21-4ce0-b47e-228c277bcada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{64f43171-1479-428e-9941-5619ff91c038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models\Point">
+      <UniqueIdentifier>{01579c48-0001-4cb5-97ac-b9224341b9b5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Models\Point\Point.cpp">
+      <Filter>Source Files\Models\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants\Constants.cpp">
+      <Filter>Source Files\Constants</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\Point\Point.hpp">
+      <Filter>Source Files\Models\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants\Constants.hpp">
+      <Filter>Source Files\Constants</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

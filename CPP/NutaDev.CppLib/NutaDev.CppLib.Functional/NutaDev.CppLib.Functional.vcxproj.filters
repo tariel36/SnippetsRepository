@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Delegates">
+      <UniqueIdentifier>{59f29458-594e-4836-b5f3-fe7f7ae11e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{468d5c44-cbf1-4dbe-ae19-f6e2bdcb2bec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Delegates\FunctionDelegate.hpp">
+      <Filter>Source Files\Delegates</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegates\IDelegate.hpp">
+      <Filter>Source Files\Delegates</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegates\MemberDelegate.hpp">
+      <Filter>Source Files\Delegates</Filter>
+    </ClInclude>
+    <ClInclude Include="Events\Event.hpp">
+      <Filter>Source Files\Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

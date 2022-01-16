@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{21185228-81b6-45ce-9c14-66c2258ad8b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Heaps">
+      <UniqueIdentifier>{91b69b7a-0835-47c2-930c-1c1f53c5469e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lists">
+      <UniqueIdentifier>{ac776a21-28a7-4f29-9a4e-58a9bbcaf014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queues">
+      <UniqueIdentifier>{32948fe5-228c-42ca-a145-4ee1b8010636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Heaps\FibonacciHeap">
+      <UniqueIdentifier>{abedc16a-2211-4b98-897c-d32b5a2d435b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lists\DoubleLinkedList">
+      <UniqueIdentifier>{4398a04b-fff2-4ba7-b41c-4802049f229c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Queues\PriorityQueue">
+      <UniqueIdentifier>{641ed64b-74c3-400e-bc54-e67090cfd168}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Heaps\FibonacciHeap\FibonacciHeap.hpp">
+      <Filter>Source Files\Heaps\FibonacciHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="Heaps\FibonacciHeap\HeapItem.hpp">
+      <Filter>Source Files\Heaps\FibonacciHeap</Filter>
+    </ClInclude>
+    <ClInclude Include="Lists\DoubleLinkedList\DoubleLinkedList.hpp">
+      <Filter>Source Files\Lists\DoubleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="Lists\DoubleLinkedList\DoubleLinkedListItem.hpp">
+      <Filter>Source Files\Lists\DoubleLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="Queues\Queue.hpp">
+      <Filter>Source Files\Queues</Filter>
+    </ClInclude>
+    <ClInclude Include="Queues\PriorityQueue\PriorityQueue.hpp">
+      <Filter>Source Files\Queues\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queues\PriorityQueue\PriorityQueueItem.hpp">
+      <Filter>Source Files\Queues\PriorityQueue</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

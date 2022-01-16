@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{3e4a6cb1-3b56-4d90-b179-8ac67451d928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers\String">
+      <UniqueIdentifier>{d28d2786-1508-48ce-b44f-e931051aa530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers\Time">
+      <UniqueIdentifier>{76c8e2ba-df46-4c8e-87eb-d48b2c6cf167}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Helpers\Time\time.cpp">
+      <Filter>Source Files\Helpers\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\String\string.cpp">
+      <Filter>Source Files\Helpers\String</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Helpers\Time\time.hpp">
+      <Filter>Source Files\Helpers\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\String\string.hpp">
+      <Filter>Source Files\Helpers\String</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
