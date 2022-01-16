@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Io">
+      <UniqueIdentifier>{f0628a54-2364-4402-801e-c5105d962840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Types">
+      <UniqueIdentifier>{a2224c5d-17bb-4d3c-9d50-5b6e2aaf08a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Thread">
+      <UniqueIdentifier>{9cb288f8-0d14-4ba6-821a-ce0ade015805}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Io\SafeOutputWriter.hpp">
+      <Filter>Source Files\Io</Filter>
+    </ClInclude>
+    <ClInclude Include="Types\Types.hpp">
+      <Filter>Source Files\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\Task.hpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Io\SafeOutputWriter.cpp">
+      <Filter>Source Files\Io</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\Task.cpp">
+      <Filter>Source Files\Thread</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
