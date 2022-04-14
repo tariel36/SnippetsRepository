@@ -27,6 +27,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using NutaDev.CsLib.Collections.Collections;
 
 namespace NutaDev.CsLib.Collections.Extensions
 {
@@ -187,6 +188,24 @@ namespace NutaDev.CsLib.Collections.Extensions
         public static ObservableCollection<TObject> ToObservableCollection<TObject>(this IEnumerable<TObject> collection)
         {
             ObservableCollection<TObject> result = new ObservableCollection<TObject>();
+
+            foreach (TObject item in collection)
+            {
+                result.Add(item);
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// Converts <paramref name="collection"/> to <see cref="TrulyObservableCollection{T}"/>.
+        /// </summary>
+        /// <typeparam name="TObject">Element type.</typeparam>
+        /// <param name="collection">Source collection.</param>
+        /// <returns><see cref="TrulyObservableCollection{T}"/> that contains elements from <paramref name="collection"/>.</returns>
+        public static TrulyObservableCollection<TObject> ToTrulyObservableCollection<TObject>(this IEnumerable<TObject> collection)
+        {
+            TrulyObservableCollection<TObject> result = new TrulyObservableCollection<TObject>();
 
             foreach (TObject item in collection)
             {
