@@ -26,6 +26,7 @@ using NutaDev.CsLib.Maintenance.Exceptions.Delegates;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace NutaDev.CsLib.External.Data.Database.LiteDb.DataSources
 {
@@ -136,6 +137,19 @@ namespace NutaDev.CsLib.External.Data.Database.LiteDb.DataSources
             {
                 Database = null;
             }
+        }
+
+        /// <summary>
+        /// Creates an index through specified expression. This is LiteDB specific function.
+        /// </summary>
+        /// <typeparam name="TType">Object type.</typeparam>
+        /// <typeparam name="TValue">Index value type.</typeparam>
+        /// <param name="expression">Mapping expression.</param>
+        /// <param name="unique">Indicates whether created index should use unique keys.</param>
+        /// <returns>True if index has been created, false otherwise.</returns>
+        public bool EnsureIndex<TType, TValue>(Expression<Func<TType, TValue>> expression, bool unique = false)
+        {
+            return Database.GetCollection<TType>().EnsureIndex(expression, unique);
         }
     }
 }
