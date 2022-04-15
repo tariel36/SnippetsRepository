@@ -11,6 +11,7 @@
     <AssemblyName>NutaDev.CsLib.IO.Framework.Windows</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Deterministic>false</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">

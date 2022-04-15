@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Deterministic>false</Deterministic>
     <Authors>tariel36</Authors>
   </PropertyGroup>
