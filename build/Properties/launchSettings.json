@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SnippetsRepository.Build": {
+      "commandName": "Project",
+      "commandLineArgs": "-host VisualStudio -Configuration Debug --verbosity Normal"
+    }
+  }
+}
