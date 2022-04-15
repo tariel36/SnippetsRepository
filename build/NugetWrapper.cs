@@ -15,7 +15,7 @@ public sealed class NugetWrapper
     public void Generate(Project project, string config)
     {
         GenerateNuSpec(project, config);
-        Pack(project);
+        Pack(project, config);
     }
 
     private void GenerateNuSpec(Project project, string config)
@@ -96,7 +96,7 @@ public sealed class NugetWrapper
         {
             foreach (string dep in dependencies)
             {
-                finalLines.Insert(finalLines.Count - 1, dep);
+                finalLines.Insert(finalLines.Count - 2, dep);
             }
         }
 
@@ -108,11 +108,11 @@ public sealed class NugetWrapper
         return string.IsNullOrWhiteSpace(left) ? right : left;
     }
 
-    private void Pack(Project project)
+    private void Pack(Project project, string config)
     {
         string baseDir = Path.GetDirectoryName(project.Path);
 
-        ExecuteNuget("pack", baseDir);
+        ExecuteNuget($"pack -OutputDirectory bin/{config} -Properties Configuration={config}", baseDir);
     }
 
     private ProjectMetadata LoadMetadataFromAssemblyCs(Project prj, string config, string sharedPath, string localPath)
@@ -153,8 +153,6 @@ public sealed class NugetWrapper
             result.Description = result.Title;
         }
 
-        // TODO: dependencies
-
         string assemblyPath = Path.Combine(Path.GetDirectoryName(prj.Path), "bin", config, $"{prj.Name}.dll");
         AssemblyName assemblyName = AssemblyName.GetAssemblyName(assemblyPath);
         result.Version = string.Join(".", assemblyName.Version.ToString().Split('.').Take(2)) + ".0";
@@ -185,9 +183,9 @@ public sealed class NugetWrapper
         {
             string line = outLine?.Data ?? "";
 
-            Serilog.Log.Write(Serilog.Events.LogEventLevel.Verbose, line);
+            Serilog.Log.Write(Serilog.Events.LogEventLevel.Information, line);
 
-            if (line.StartsWith("WARNING") || line.StartsWith("ERROR"))
+            if (line.StartsWith("ERROR"))
             {
                 throw new InvalidOperationException($"Failed to execute nugget in `{baseDir}`.");
             }
