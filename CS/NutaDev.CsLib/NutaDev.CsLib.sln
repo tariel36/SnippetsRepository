@@ -160,8 +160,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docs", "_docs", "{789CAB1A
 		Graph1.dgml = Graph1.dgml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Internal.Build", "..\..\Internal\Build\NutaDev.CsLib.Internal.Build.csproj", "{C7442182-F3E3-4DCD-BFCA-FC408733F263}"
-EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Internal\NutaDev.CsLib.Internal.Shared\NutaDev.CsLib.Shared.projitems*{5b0d2f2e-08b1-4948-832d-c19d0e11a834}*SharedItemsImports = 13
@@ -171,8 +169,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C7442182-F3E3-4DCD-BFCA-FC408733F263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7442182-F3E3-4DCD-BFCA-FC408733F263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12358E9B-7809-44D6-8945-B067B311372F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{12358E9B-7809-44D6-8945-B067B311372F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12358E9B-7809-44D6-8945-B067B311372F}.Release|Any CPU.ActiveCfg = Release|Any CPU
