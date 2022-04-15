@@ -18,6 +18,12 @@ public sealed class NugetWrapper
         Pack(project, config);
     }
 
+    public void Push(string apiKey, string root, string deployDir)
+    {
+        ExecuteNuget($"setapikey {apiKey}", root);
+        ExecuteNuget($"push *.nupkg -source {deployDir}", root);
+    }
+
     private void GenerateNuSpec(Project project, string config)
     {
         string[] ignoreTags = new[]

@@ -187,3 +187,4 @@ _local/
 projects/CS/.vs
 .vs
 *.nuspec
+local/

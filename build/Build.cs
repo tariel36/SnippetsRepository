@@ -33,6 +33,9 @@ public class Build
     [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
     public readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
+    [Parameter("Nuget api key")]
+    public readonly string NugetApiKey = "";
+
     [Solution("CS/NutaDev.CsLib/NutaDev.CsLib.sln", Name = "NutaDev.CsLib")]
     public readonly Solution CsSolution;
 
@@ -143,7 +146,8 @@ public class Build
 
     private void DeployNuggetPackages()
     {
-
+        Paths paths = GetPaths();
+        new NugetWrapper().Push(NugetApiKey, paths.RootDirectory, paths.DeployDirecotry);
     }
 
     private void GenerateNuggetPackages()
