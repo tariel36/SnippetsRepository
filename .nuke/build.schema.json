@@ -81,7 +81,8 @@
             "enum": [
               "Clean",
               "Compile",
-              "EnsureGeneratePackageOnBuild",
+              "DeployLocal",
+              "DeployWeb",
               "Prepare",
               "Restore"
             ]
@@ -95,7 +96,8 @@
             "enum": [
               "Clean",
               "Compile",
-              "EnsureGeneratePackageOnBuild",
+              "DeployLocal",
+              "DeployWeb",
               "Prepare",
               "Restore"
             ]
