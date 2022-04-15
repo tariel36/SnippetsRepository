@@ -28,7 +28,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 
-namespace NutaDev.CsSLib.Internal.Tests.Utility.Mocks
+namespace NutaDev.CsLib.Internal.Tests.Utility.Mocks
 {
     /// <summary>
     /// Provides pseudo random generator that returns values based on provided sequence.

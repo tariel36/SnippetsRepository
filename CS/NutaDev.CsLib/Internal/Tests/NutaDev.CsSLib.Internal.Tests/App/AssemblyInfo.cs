@@ -22,4 +22,4 @@
 
 using System.Reflection;
 
-[assembly: AssemblyTitle("NutaDev.CsSLib.Internal.Tests")]
+[assembly: AssemblyTitle("NutaDev.CsLib.Internal.Tests")]

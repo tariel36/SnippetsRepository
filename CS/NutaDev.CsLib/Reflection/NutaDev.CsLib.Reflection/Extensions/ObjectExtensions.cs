@@ -93,6 +93,18 @@ namespace NutaDev.CsLib.Reflection.Extensions
         }
 
         /// <summary>
+        /// Gets field value.
+        /// </summary>
+        /// <param name="o">The object.</param>
+        /// <param name="fieldName">Field name.</param>
+        /// <typeparam name="TValue">Value type.</typeparam>
+        /// <returns>Field's value from <paramref name="o"/> or null if <paramref name="o"/> is null.</returns>
+        public static TValue GetFieldValue<TValue>(this object o, string fieldName)
+        {
+            return (TValue) o?.GetType().GetFieldValue(o, fieldName);
+        }
+
+        /// <summary>
         /// Returns name of the object.
         /// </summary>
         /// <param name="o">The object.</param>
@@ -111,6 +123,18 @@ namespace NutaDev.CsLib.Reflection.Extensions
         public static object GetPropertyValue(this object o, string propertyName)
         {
             return o?.GetType().GetPropertyValue(o, propertyName);
+        }
+
+        /// <summary>
+        /// Gets instance property value.
+        /// </summary>
+        /// <param name="o">The object.</param>
+        /// <param name="propertyName">Property name.</param>
+        /// <typeparam name="TValue">Value type.</typeparam>
+        /// <returns>Property value.</returns>
+        public static TValue GetPropertyValue<TValue>(this object o, string propertyName)
+        {
+            return (TValue) o?.GetType().GetPropertyValue(o, propertyName);
         }
 
         /// <summary>

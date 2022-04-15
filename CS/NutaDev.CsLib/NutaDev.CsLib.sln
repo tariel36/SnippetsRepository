@@ -119,9 +119,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Services.Serv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4A1EB1F3-B4BD-4C50-98C8-D857012FAADE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsSLib.Internal.Tests", "Internal\Tests\NutaDev.CsSLib.Internal.Tests\NutaDev.CsSLib.Internal.Tests.csproj", "{316A6919-F20B-4C41-9695-E34C316DB4D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Internal.Tests", "Internal\Tests\NutaDev.CsSLib.Internal.Tests\NutaDev.CsLib.Internal.Tests.csproj", "{316A6919-F20B-4C41-9695-E34C316DB4D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Types.RegularExpressions", "Types\NutaDev.CsLib.Types.RegularExpressions\NutaDev.CsLib.Types.RegularExpressions.csproj", "{9C07CB51-FBC1-401B-B710-707019B4AD42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Types.RegularExpressions", "Types\NutaDev.CsLib.Types.RegularExpressions\NutaDev.CsLib.Types.RegularExpressions.csproj", "{9C07CB51-FBC1-401B-B710-707019B4AD42}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audio", "Audio", "{51D4AF02-14EF-416D-BD7F-F4D0F0A850C8}"
 EndProject
@@ -129,15 +129,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Audio", "Audi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audio", "Audio", "{D3290906-5841-4CCE-8036-B6740C7C96F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.External.Audio.TagLib", "External\Audio\NutaDev.CsLib.External.Audio.TagLib\NutaDev.CsLib.External.Audio.TagLib.csproj", "{AC43CEC8-EA6E-435F-B469-A180CAC3D8A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.External.Audio.TagLib", "External\Audio\NutaDev.CsLib.External.Audio.TagLib\NutaDev.CsLib.External.Audio.TagLib.csproj", "{AC43CEC8-EA6E-435F-B469-A180CAC3D8A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5AB58DDD-AA1C-4920-B9A9-3D2B3AC417AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{6BB80BCB-0EAC-4CB8-B1C4-55641555A85D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Services.External.Hosts.TopShelf", "External\Services\NutaDev.CsLib.Services.External.Hosts.TopShelf\NutaDev.CsLib.Services.External.Hosts.TopShelf.csproj", "{A064563A-45BC-4BCF-8E03-F2FFAF16D752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.External.Services.Hosts.TopShelf", "External\Services\NutaDev.CsLib.Services.External.Hosts.TopShelf\NutaDev.CsLib.External.Services.Hosts.TopShelf.csproj", "{A064563A-45BC-4BCF-8E03-F2FFAF16D752}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Reflection.CodeCompilation", "Reflection\NutaDev.CsLib.Reflection.CodeCompilation\NutaDev.CsLib.Reflection.CodeCompilation.csproj", "{CA5DC936-FFFD-42F1-9758-46D3B7C738BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Reflection.CodeCompilation", "Reflection\NutaDev.CsLib.Reflection.CodeCompilation\NutaDev.CsLib.Reflection.CodeCompilation.csproj", "{CA5DC936-FFFD-42F1-9758-46D3B7C738BB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{2AB5F3B3-1F15-4E6F-B713-D4B95A0B5CD0}"
 EndProject
@@ -145,15 +145,20 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.IO.Framework.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gaming", "Gaming", "{20736078-1308-4C79-9A1E-8D4DB547CCAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Gaming", "Gaming\NutaDev.CsLib.Gaming\NutaDev.CsLib.Gaming.csproj", "{3A0389CC-2DB7-4430-AB48-25501BF9A5F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Gaming", "Gaming\NutaDev.CsLib.Gaming\NutaDev.CsLib.Gaming.csproj", "{3A0389CC-2DB7-4430-AB48-25501BF9A5F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jokes", "Jokes", "{F4026AF9-FA1E-49F6-8241-9560B5D5B55D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Jokes", "Jokes\NutaDev.CsLib.Jokes\NutaDev.CsLib.Jokes.csproj", "{49EF6370-7A27-4CC5-9616-3C4104E31655}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Jokes", "Jokes\NutaDev.CsLib.Jokes\NutaDev.CsLib.Jokes.csproj", "{49EF6370-7A27-4CC5-9616-3C4104E31655}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{91180956-965E-4BBD-A284-E5043754A1DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Gaming.Framework", "Gaming\Framework\NutaDev.CsLib.Gaming.Framework\NutaDev.CsLib.Gaming.Framework.csproj", "{C93FD852-0DBB-4975-99D9-EB2C6F594C3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docs", "_docs", "{789CAB1A-CC73-4DBE-8725-4CA27AD26B73}"
+	ProjectSection(SolutionItems) = preProject
+		_docs\Graph1.dgml = _docs\Graph1.dgml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

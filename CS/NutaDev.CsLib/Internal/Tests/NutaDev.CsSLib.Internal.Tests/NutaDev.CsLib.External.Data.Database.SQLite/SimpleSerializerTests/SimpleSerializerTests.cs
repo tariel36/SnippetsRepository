@@ -29,7 +29,7 @@ using System.Data.SQLite;
 using System.Globalization;
 using System.Text;
 
-namespace NutaDev.CsSLib.Internal.Tests.NutaDev.CsLib.External.Data.Database.SQLite.SimpleSerializerTests
+namespace NutaDev.CsLib.Internal.Tests.NutaDev.CsLib.External.Data.Database.SQLite.SimpleSerializerTests
 {
     [TestFixture]
     public class SimpleSerializerTests

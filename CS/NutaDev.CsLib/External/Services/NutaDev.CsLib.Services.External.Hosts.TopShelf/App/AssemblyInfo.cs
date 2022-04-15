@@ -22,4 +22,4 @@
 
 using System.Reflection;
 
-[assembly: AssemblyTitle("NutaDev.CsLib.Services.External.Hosts.TopShelf")]
+[assembly: AssemblyTitle("NutaDev.CsLib.External.Services.Hosts.TopShelf")]

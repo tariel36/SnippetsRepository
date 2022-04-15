@@ -24,7 +24,7 @@ using NUnit.Framework;
 using NutaDev.CsLib.External.Data.Database.SQLite.Builders;
 using System.Collections.Generic;
 
-namespace NutaDev.CsSLib.Internal.Tests.NutaDev.CsLib.External.Data.Database.SQLite.SQLiteQueryBuilderTests
+namespace NutaDev.CsLib.Internal.Tests.NutaDev.CsLib.External.Data.Database.SQLite.SQLiteQueryBuilderTests
 {
     [TestFixture]
     public class SQLiteQueryBuilderTests
