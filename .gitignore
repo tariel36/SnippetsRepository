@@ -186,3 +186,4 @@ _candidates/
 _local/
 projects/CS/.vs
 .vs
+*.nuspec

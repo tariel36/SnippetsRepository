@@ -7,6 +7,7 @@
 <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Deterministic>false</Deterministic>
     <Authors>tariel36</Authors>
+<PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,4 +27,9 @@
     <ProjectReference Include="..\..\..\Services\NutaDev.CsLib.Services.Hosts.Core\NutaDev.CsLib.Services.Hosts.Core.csproj" />
   </ItemGroup>
 
+
+            <ItemGroup>
+                <None Include="../../../../../LICENSE" Pack="true" Visible="false" PackagePath="" />
+            </ItemGroup>
+        
 </Project>

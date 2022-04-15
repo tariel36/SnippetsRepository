@@ -22,7 +22,7 @@ public class Build
     {
         AppDomain.CurrentDomain.AssemblyResolve += CurrentDomain_AssemblyResolve;
 
-        return Execute<Build>(x => x.Compile);
+        return Execute<Build>(x => x.Finish);
     }
 
     private static Assembly CurrentDomain_AssemblyResolve(object sender, ResolveEventArgs args)
@@ -68,6 +68,7 @@ public class Build
         .Executes(() =>
         {
             CompileProjects();
+            GenerateNuggetPackages();
         });
 
     Target DeployLocal => _ => _
@@ -82,6 +83,13 @@ public class Build
         .Executes(() =>
         {
             DeployNuggetPackages();
+        });
+
+    Target Finish => _ => _
+        .DependsOn(DeployWeb)
+        .Executes(() =>
+        {
+            // Ignored
         });
 
     private void CleanDeploy()
@@ -138,17 +146,28 @@ public class Build
 
     }
 
+    private void GenerateNuggetPackages()
+    {
+        foreach (Project prj in ToBuild.Where(x => x.GetTargetFrameworks() == null))
+        {
+            new NugetWrapper().Generate(prj, Configuration);
+        }
+    }
+
     private void EnsureLicense()
     {
         const string LicensePathLine = @"<None Include=""pathToLicense/LICENSE"" Pack=""true"" Visible=""false"" PackagePath="""" />";
         const string LicenseProperties = @"
-            <PropertyGroup>
-                <PackageLicenseFile>LICENSE</PackageLicenseFile>
-            </PropertyGroup>
-
             <ItemGroup>
                 "+LicensePathLine+@"
             </ItemGroup>
+        ";
+
+        const string PropertyGroupLicenseLine = @"<PackageLicenseFile>LICENSE</PackageLicenseFile>";
+        const string PropertyGroup = @"
+            <PropertyGroup>
+                "+PropertyGroupLicenseLine+@"
+            </PropertyGroup>
         ";
 
         Paths paths = GetPaths();
@@ -161,16 +180,32 @@ public class Build
 
             if (fileLines.All(x => !x.Contains("PackageLicenseFile")))
             {
-                string license = LicenseProperties.Replace(nameof(pathToLicense), pathToLicense);
+                int propertyGroupIdx = fileLines.Select(x => x.Trim()).ToList().IndexOf("</PropertyGroup>");
 
-                fileLines.Insert(fileLines.IndexOf(fileLines.Find(x => x.Contains("</Project>"))), license);
+                string license = LicenseProperties.Replace(nameof(pathToLicense), pathToLicense);
+                fileLines.Insert(fileLines.LastIndexOf(fileLines.FindLast(x => x.Contains("</Project>"))), license);
+
+                if (propertyGroupIdx < 0)
+                {
+                    fileLines.Insert(fileLines.LastIndexOf(fileLines.FindLast(x => x.Contains("</Project>"))), PropertyGroup);
+                }
+                else
+                {
+                    int startIdx = 0;
+
+                    while ((propertyGroupIdx = fileLines.Select(x => x.Trim()).ToList().IndexOf("</PropertyGroup>", startIdx)) > 0)
+                    {
+                        fileLines.Insert(propertyGroupIdx, PropertyGroupLicenseLine);
+                        startIdx = propertyGroupIdx + 2;
+                    }
+                }
 
                 File.WriteAllLines(prj.Path, fileLines.ToArray());
             }
             else
             {
                 string license = LicensePathLine.Replace(nameof(pathToLicense), pathToLicense);
-                string line = fileLines.Find(x => x.EndsWith(@"LICENSE"" Pack=""true"" PackagePath="""" />"));
+                string line = fileLines.Find(x => x.EndsWith(@"LICENSE"" Pack=""true"" Visible=""false"" PackagePath="""" />"));
 
                 if (!line.Contains(license))
                 {

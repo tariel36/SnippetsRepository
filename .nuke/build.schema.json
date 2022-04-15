@@ -83,6 +83,7 @@
               "Compile",
               "DeployLocal",
               "DeployWeb",
+              "Finish",
               "Prepare",
               "Restore"
             ]
@@ -98,6 +99,7 @@
               "Compile",
               "DeployLocal",
               "DeployWeb",
+              "Finish",
               "Prepare",
               "Restore"
             ]

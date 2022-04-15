@@ -135,7 +135,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hosts", "Hosts", "{6BB80BCB-0EAC-4CB8-B1C4-55641555A85D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Services.External.Hosts.TopShelf", "External\Services\NutaDev.CsLib.Services.External.Hosts.TopShelf\NutaDev.CsLib.Services.External.Hosts.TopShelf.csproj", "{A064563A-45BC-4BCF-8E03-F2FFAF16D752}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.External.Services.Hosts.TopShelf", "External\Services\NutaDev.CsLib.Services.External.Hosts.TopShelf\NutaDev.CsLib.External.Services.Hosts.TopShelf.csproj", "{A064563A-45BC-4BCF-8E03-F2FFAF16D752}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Reflection.CodeCompilation", "Reflection\NutaDev.CsLib.Reflection.CodeCompilation\NutaDev.CsLib.Reflection.CodeCompilation.csproj", "{CA5DC936-FFFD-42F1-9758-46D3B7C738BB}"
 EndProject
@@ -157,7 +157,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Gaming.Framew
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_docs", "_docs", "{789CAB1A-CC73-4DBE-8725-4CA27AD26B73}"
 	ProjectSection(SolutionItems) = preProject
-		Graph1.dgml = Graph1.dgml
+		_docs\Graph1.dgml = _docs\Graph1.dgml
 	EndProjectSection
 EndProject
 Global
