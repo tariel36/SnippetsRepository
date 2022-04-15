@@ -21,7 +21,7 @@ public sealed class NugetWrapper
     public void Push(string apiKey, string root, string deployDir)
     {
         ExecuteNuget($"setapikey {apiKey}", root);
-        ExecuteNuget($"push *.nupkg -source {deployDir}", root);
+        ExecuteNuget($"push *.nupkg -Source https://api.nuget.org/v3/index.json", deployDir);
     }
 
     private void GenerateNuSpec(Project project, string config)

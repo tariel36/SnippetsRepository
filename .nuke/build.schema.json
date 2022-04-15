@@ -46,6 +46,10 @@
           "type": "boolean",
           "description": "Disables displaying the NUKE logo"
         },
+        "NugetApiKey": {
+          "type": "string",
+          "description": "Nuget api key"
+        },
         "NutaDev.CppLib": {
           "type": "string",
           "description": "Path to a solution file that is automatically loaded. Default is CPP/NutaDev.CppLib/NutaDev.CppLib.sln"
