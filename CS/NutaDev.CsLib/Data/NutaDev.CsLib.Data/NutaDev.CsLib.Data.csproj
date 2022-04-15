@@ -6,6 +6,7 @@
 <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Deterministic>false</Deterministic>
     <Authors>tariel36</Authors>
+<PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,4 +21,9 @@
     <ProjectReference Include="..\..\Maintenance\NutaDev.CsLib.Maintenance.Exceptions\NutaDev.CsLib.Maintenance.Exceptions.csproj" />
   </ItemGroup>
 
+
+            <ItemGroup>
+                <None Include="../../../../LICENSE" Pack="true" Visible="false" PackagePath="" />
+            </ItemGroup>
+        
 </Project>
