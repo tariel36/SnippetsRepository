@@ -24,7 +24,7 @@ using NUnit.Framework;
 using NutaDev.CsLib.Gaming.Leveling.Formulas.Specific;
 using NutaDev.CsLib.Gaming.Leveling.Managers;
 
-namespace NutaDev.CsSLib.Internal.Tests.NutaDev.CsLib.Gaming.LevelingManagerTests
+namespace NutaDev.CsLib.Internal.Tests.NutaDev.CsLib.Gaming.LevelingManagerTests
 {
     [TestFixture]
     public class LevelingManagerTests

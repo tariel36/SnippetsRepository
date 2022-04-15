@@ -24,7 +24,7 @@ using NutaDev.CsLib.Math.Calculator.Tokens;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace NutaDev.CsSLib.Internal.Tests.Utility.Comparers
+namespace NutaDev.CsLib.Internal.Tests.Utility.Comparers
 {
     /// <summary>
     /// Compares two <see cref="Token"/>

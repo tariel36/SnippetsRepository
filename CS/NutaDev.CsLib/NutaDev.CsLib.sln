@@ -119,7 +119,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Services.Serv
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4A1EB1F3-B4BD-4C50-98C8-D857012FAADE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsSLib.Internal.Tests", "Internal\Tests\NutaDev.CsSLib.Internal.Tests\NutaDev.CsSLib.Internal.Tests.csproj", "{316A6919-F20B-4C41-9695-E34C316DB4D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Internal.Tests", "Internal\Tests\NutaDev.CsSLib.Internal.Tests\NutaDev.CsLib.Internal.Tests.csproj", "{316A6919-F20B-4C41-9695-E34C316DB4D4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Types.RegularExpressions", "Types\NutaDev.CsLib.Types.RegularExpressions\NutaDev.CsLib.Types.RegularExpressions.csproj", "{9C07CB51-FBC1-401B-B710-707019B4AD42}"
 EndProject

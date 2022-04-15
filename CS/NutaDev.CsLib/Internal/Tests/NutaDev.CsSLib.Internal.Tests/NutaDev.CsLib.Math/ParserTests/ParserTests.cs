@@ -23,10 +23,10 @@
 using NUnit.Framework;
 using NutaDev.CsLib.Math.Calculator.Evaluation;
 using NutaDev.CsLib.Math.Calculator.Tokens;
-using NutaDev.CsSLib.Internal.Tests.Utility.Comparers;
+using NutaDev.CsLib.Internal.Tests.Utility.Comparers;
 using System.Collections.Generic;
 
-namespace NutaDev.CsSLib.Internal.Tests.NutaDev.CsLib.Math.ParserTests
+namespace NutaDev.CsLib.Internal.Tests.NutaDev.CsLib.Math.ParserTests
 {
     [TestFixture]
     public class ParserTests

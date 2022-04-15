@@ -24,11 +24,11 @@ using NUnit.Framework;
 using NutaDev.CsLib.Math.Calculator.Evaluation;
 using NutaDev.CsLib.Math.Calculator.Tokens;
 using NutaDev.CsLib.Resources.Text.Exceptions;
-using NutaDev.CsSLib.Internal.Tests.Utility.Comparers;
+using NutaDev.CsLib.Internal.Tests.Utility.Comparers;
 using System;
 using System.Collections.Generic;
 
-namespace NutaDev.CsSLib.Internal.Tests.NutaDev.CsLib.Math.LexerTests
+namespace NutaDev.CsLib.Internal.Tests.NutaDev.CsLib.Math.LexerTests
 {
     [TestFixture]
     public class LexerTests

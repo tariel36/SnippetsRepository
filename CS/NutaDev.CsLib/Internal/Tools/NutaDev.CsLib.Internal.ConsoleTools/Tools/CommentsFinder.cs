@@ -53,7 +53,7 @@ namespace NutaDev.CsLib.Internal.ConsoleTools.Tools
                 @"\obj\Release\",
                 @"\bin\Debug\",
                 @"\bin\Release\",
-                @"NutaDev.CsSLib.Internal.Tests"
+                @"NutaDev.CsLib.Internal.Tests"
             };
         }
 

@@ -24,7 +24,7 @@ using NUnit.Framework;
 using NutaDev.CsLib.Math.Matrixes;
 using System.Linq;
 
-namespace NutaDev.CsSLib.Internal.Tests.NutaDev.CsLib.Math.FloatMatrixTests
+namespace NutaDev.CsLib.Internal.Tests.NutaDev.CsLib.Math.FloatMatrixTests
 {
     [TestFixture]
     public class FloatMatrixTests

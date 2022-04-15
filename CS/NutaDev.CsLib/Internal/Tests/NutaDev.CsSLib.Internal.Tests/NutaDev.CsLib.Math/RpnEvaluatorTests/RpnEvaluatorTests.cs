@@ -27,12 +27,12 @@ using NutaDev.CsLib.Math.Calculator.Tokens;
 using NutaDev.CsLib.Random.Dice.Abstract;
 using NutaDev.CsLib.Random.Dice.Specific;
 using NutaDev.CsLib.Random.Services.Specific;
-using NutaDev.CsSLib.Internal.Tests.Utility.Comparers;
-using NutaDev.CsSLib.Internal.Tests.Utility.Mocks;
+using NutaDev.CsLib.Internal.Tests.Utility.Comparers;
+using NutaDev.CsLib.Internal.Tests.Utility.Mocks;
 using System;
 using System.Collections.Generic;
 
-namespace NutaDev.CsSLib.Internal.Tests.NutaDev.CsLib.Math.RpnEvaluatorTests
+namespace NutaDev.CsLib.Internal.Tests.NutaDev.CsLib.Math.RpnEvaluatorTests
 {
     [TestFixture]
     public class RpnEvaluatorTests

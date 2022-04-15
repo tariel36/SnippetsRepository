@@ -23,7 +23,7 @@
 using NUnit.Framework;
 using NutaDev.CsLib.Gaming.Leveling.Formulas.Specific;
 
-namespace NutaDev.CsSLib.Internal.Tests.NutaDev.CsLib.Gaming.CubicLevelingTableFormulaTests
+namespace NutaDev.CsLib.Internal.Tests.NutaDev.CsLib.Gaming.CubicLevelingTableFormulaTests
 {
     [TestFixture]
     public class CubicLevelingTableFormulaTests
