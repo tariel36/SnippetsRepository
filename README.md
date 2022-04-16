@@ -1,7 +1,9 @@
 # SnippetsRepository
-Big repository of codes for various languages
+Big repository of codes for various languages.
 
 ## C#
+Find the NuGets [there](https://www.nuget.org/profiles/tariel36).
+
 Uses following libraries:
 * [TopShelf](http://topshelf-project.com/);
 * [LiteDB](https://www.litedb.org/);
@@ -10,6 +12,7 @@ Uses following libraries:
 * [TagLib#](https://github.com/mono/taglib-sharp);
 * [WindowsAPICodePack-Core](https://github.com/aybe/Windows-API-Code-Pack-1.1);
 * [WindowsAPICodePack-Shell](https://github.com/aybe/Windows-API-Code-Pack-1.1);
+* [NUKE](https://nuke.build);
 * Various .NET standard libraries;
 
 ## C++
