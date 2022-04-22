@@ -19,10 +19,10 @@ Uses following libraries:
 
 ## Docker
 Various containers.
-* [Leantime (Leantime + MySQL + phpMyAdmin)](/blob/master/Docker/Leantime/README.md);
-* [PostgreSQL+Adminer](/blob/master/Docker/PostgreSQL+Adminer/README.md);
+* [Leantime (Leantime + MySQL + phpMyAdmin)](/Docker/Leantime/README.md);
+* [PostgreSQL+Adminer](/Docker/PostgreSQL+Adminer/README.md);
 
 ## Guides
 Various guides, tutorials and articles.
-* [GooglePlay - Game deployment](/blob/master/Guides/GooglePlay/ApplicationDeployment/README.md);
-* [Live translation and transcribe by Microsoft Translate](/blob/master/Guides/LiveTranslation/LiveTranslationWithTranscribe.md);
+* [GooglePlay - Game deployment](/Guides/GooglePlay/ApplicationDeployment/README.md);
+* [Live translation and transcribe by Microsoft Translate](/Guides/LiveTranslation/LiveTranslationWithTranscribe.md);
