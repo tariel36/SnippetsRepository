@@ -20,7 +20,7 @@ Uses following libraries:
 ## Docker
 Various containers.
 * [Leantime (Leantime + MySQL + phpMyAdmin)](/Docker/Leantime/README.md);
-* [PostgreSQL+Adminer](/Docker/PostgreSQL+Adminer/README.md);
+* [PostgreSQL + Adminer](/Docker/PostgreSQL+Adminer/README.md);
 
 ## Guides
 Various guides, tutorials and articles.
