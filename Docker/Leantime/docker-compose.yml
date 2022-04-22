@@ -1,0 +1,44 @@
+version: '3.9'
+name: nutadev
+services:
+  nutadev-mysql:
+    container_name: nutadev-mysql
+    image: mysql/mysql-server:latest
+    volumes:
+      - nutadev-mysql-data:/var/lib/mysql
+    ports:
+      - 3307:3306
+    networks:
+      - nutadev-net
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+
+  nutadev-phpmyadmin:
+    container_name: nutadev-phpmyadmin
+    image: phpmyadmin/phpmyadmin:latest
+    ports:
+      - 8081:80
+    networks:
+      - nutadev-net
+    environment:
+      - PMA_ARBITRARY=1
+
+  nutadev-leantime:
+    container_name: nutadev-leantime
+    image: leantime/leantime:latest
+    ports:
+      - 80:80
+    networks:
+      - nutadev-net
+    environment:
+      LEAN_DB_HOST: nutadev-mysql:3306
+      LEAN_DB_DATABASE: leantime
+      LEAN_DB_USER: ${MYSQL_ROOT_USER}
+      LEAN_DB_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+
+volumes:
+  nutadev-mysql-data:
+
+networks:
+  nutadev-net:
+    external: false
