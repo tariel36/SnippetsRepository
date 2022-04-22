@@ -2,7 +2,7 @@
 Big repository of codes for various languages.
 
 ## C#
-Find the NuGets [there](https://www.nuget.org/profiles/tariel36).
+Find the NuGets [here](https://www.nuget.org/profiles/tariel36).
 
 Uses following libraries:
 * [TopShelf](http://topshelf-project.com/);
@@ -16,3 +16,13 @@ Uses following libraries:
 * Various .NET standard libraries;
 
 ## C++
+
+## Docker
+Various containers.
+* [Leantime (Leantime + MySQL + phpMyAdmin)](/blob/master/Docker/Leantime/README.md);
+* [PostgreSQL+Adminer](/blob/master/Docker/PostgreSQL+Adminer/README.md);
+
+## Guides
+Various guides, tutorials and articles.
+* [GooglePlay - Game deployment](/blob/master/Guides/GooglePlay/ApplicationDeployment/README.md);
+* [Live translation and transcribe by Microsoft Translate](/blob/master/Guides/LiveTranslation/LiveTranslationWithTranscribe.md);
