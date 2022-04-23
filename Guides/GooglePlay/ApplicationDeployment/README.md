@@ -153,6 +153,10 @@ To sign your application in Visual Studio, right click on the Android project an
 
 You will be asked to select the Signing Identity. If there is none, create one. Select the proper identity and proceed (for example `Save As` in `Ad Hoc` process). That's all, you "distributed", or rather prepared the distribution - one way or another.
 
+> Remember, once you upload the signed application, you're bound to selected key and keystore for this particular application on Google Play. So, if you're fiddling and learning and upload application signed with debug key, then you're bound to debug key.
+> Also, once you upload binaries to Google Play, you no longer can delete this application card. Best you can do is changing its name to some glibberish.
+> The package name must also be unique, so if you're still testing all the things out, set some random package name in case you lock yourself with random Google Application page and still want to use particular package name in future.
+
 ## CI/API C# examples
 
 You will need following packages:
