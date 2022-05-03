@@ -26,3 +26,10 @@ Various containers.
 Various guides, tutorials and articles.
 * [GooglePlay - Game deployment](/Guides/GooglePlay/ApplicationDeployment/README.md);
 * [Live translation and transcribe by Microsoft Translate](/Guides/LiveTranslation/LiveTranslationWithTranscribe.md);
+* [SSMS - Example: Importing excel files](/Guides/SSMS/ImportingExcelFiles/README.md);
+* [SSRS - Example: Forced pagination](/Guides/SSRS/ForcedPagination/README.md);
+* [SSRS - Example: Pass report parameters to shared dataset](/Guides/SSRS/PassParametersToSharedDataset/README.md);
+* [C# - Example: Query SSRS with CS](/Guides/CS-Work/Examples/QuerySSRSWithCS/README.md);
+* [C# - Useful articles](/Guides/CS-Work/External/Articles.md);
+* [C# - Coding standards](/Guides/CS-Work/Work/CodingStandards.md);
+* [Visual Studio - Useful shortcuts](/Guides/CS-Work/Work/VS-UsefulInfo.md);
