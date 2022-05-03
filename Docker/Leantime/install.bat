@@ -1,4 +1,4 @@
-docker compose up -d
+docker compose --env-file ./.env.template up -d
 ping -n 15 127.0.0.1 > nul
 docker exec -i nutadev-mysql mysql -uroot -proot -e "update mysql.user set host = '%' where user='root';"
 ping -n 15 127.0.0.1 > nul
