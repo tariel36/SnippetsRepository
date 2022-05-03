@@ -3,8 +3,8 @@ List of tools and software used for work management.
 * :heavy_division_sign: - Partially free but in acceptable degree;
 * :x: - Paid only;
 
-| Name | URL | Free | Comment |
-| ---- | --- | ---- | ------- |
+| Name | Free | Comment |
+| ---- | ---- | ------- |
 | [OneDev](https://github.com/theonedev/onedev) | :heavy_check_mark: | Self-hosted git, kanban and CI/CD. Found on [this](https://github.com/awesome-selfhosted/awesome-selfhosted) awesome list. |
 | [Planka](https://planka.app) | :heavy_check_mark: | [Trello](https://trello.com) alternative. Found on [this](https://github.com/awesome-selfhosted/awesome-selfhosted) awesome list. |
 | [Focalboard](https://www.focalboard.com) | :heavy_check_mark: | Self-hosted task management. Found on [this](https://github.com/awesome-selfhosted/awesome-selfhosted) awesome list. |
