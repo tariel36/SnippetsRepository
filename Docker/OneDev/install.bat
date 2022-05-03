@@ -1,0 +1,1 @@
+docker compose --verbose --env-file ./.env up -d
