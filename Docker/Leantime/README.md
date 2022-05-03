@@ -19,7 +19,7 @@ Be aware that this package is designed for at home use, because root is used as 
 * URL: `http://localhost:8081`;
 
 # Installation
-1. Set environmental variables in `.env` file;
+1. Set environmental variables in `.env.template` file;
 2. [Optional] Implement safetly measures within `install.bat` script - get rid of `root` etc;
 2. Run `install.bat`;
 
