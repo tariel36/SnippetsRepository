@@ -1,6 +1,6 @@
 # Common indicators
 * :heavy_check_mark: - Completely free;
-* :heavy_division_sign: - Partially free but in acceptable degree;
+* :heavy_division_sign: - Partially free, partially paid, but in acceptable degree;
 * :x: - Paid only;
 
 # Lists
