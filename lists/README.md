@@ -1,4 +1,4 @@
-# Common indicators.
+# Common indicators
 * :heavy_check_mark: - Completely free;
 * :heavy_division_sign: - Partially free but in acceptable degree;
 * :x: - Paid only;
