@@ -1,7 +1,10 @@
 # SnippetsRepository
-Big repository of codes for various languages.
+Big repository of codes for various languages, useful tools, lists and guides.
 
-## C#
+## Compile time libraries
+### NutaDev.CsLib
+Various codes for C#.
+
 Find the NuGets [here](https://www.nuget.org/profiles/tariel36).
 
 Uses following libraries:
@@ -15,7 +18,8 @@ Uses following libraries:
 * [NUKE](https://nuke.build);
 * Various .NET standard libraries;
 
-## C++
+### NutaDev.CppLib
+Various codes for C++.
 
 ## Docker
 Various containers.
@@ -33,3 +37,7 @@ Various guides, tutorials and articles.
 * [C# - Useful articles](/Guides/CS-Work/External/Articles.md);
 * [C# - Coding standards](/Guides/CS-Work/Work/CodingStandards.md);
 * [Visual Studio - Useful shortcuts](/Guides/CS-Work/Work/VS-UsefulInfo.md);
+
+## Lists
+Various compilations and list of useful things.
+* [Work organization](/lists/work-organization.md)
