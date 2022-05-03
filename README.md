@@ -39,4 +39,4 @@ Various guides, tutorials and articles.
 * [Visual Studio - Useful shortcuts](/Guides/CS-Work/Work/VS-UsefulInfo.md);
 
 ## Lists
-Various compilations and list of useful things. See the index [here](/lists/README.md)
+Various compilations and list of useful things. See the index [here](/lists/README.md).
