@@ -1,8 +1,4 @@
 List of tools and software used for work management.
-* :heavy_check_mark: - Completely free;
-* :heavy_division_sign: - Partially free but in acceptable degree;
-* :x: - Paid only;
-
 | Name | Free | Comment |
 | ---- | ---- | ------- |
 | [OneDev](https://github.com/theonedev/onedev) | :heavy_check_mark: | Self-hosted git, kanban and CI/CD. Found on [this](https://github.com/awesome-selfhosted/awesome-selfhosted) awesome list. |
