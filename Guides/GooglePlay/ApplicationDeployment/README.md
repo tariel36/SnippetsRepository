@@ -325,6 +325,6 @@ As I said, the majority of existing documentation, articles and examples are utt
 
 More or less useful articles to read:
 
-* [https://stackoverflow.com/questions/66007292/](https://stackoverflow.com/questions/66007292/https:/);
+* [https://stackoverflow.com/questions/66007292/](https://stackoverflow.com/questions/66007292/);
 * [https://developers.google.com/android-publisher/api-ref/rest/v3/](https://developers.google.com/android-publisher/api-ref/rest/v3/);
 * [https://stackoverflow.com/questions/11071127/google-play-app-description-formatting](https://stackoverflow.com/questions/11071127/google-play-app-description-formatting);
