@@ -14,8 +14,8 @@
   * [Releases and tests](#releases-and-tests);
 * [Deployment process](#deployment-process);
   * [Building the application](#building-the-application);
-  * [Preparing release and signing the application]();
-  * [CI/API C# examples]();
+  * [Preparing release and signing the application](preparing-release-and-signing-the-application);
+  * [CI/API C# examples](ci-api-c-examples);
   * [NUKE BUILD tips](#nuke-build-tips);
 * [Afterword](#afterword);
 * [Additional reading](#additional-reading);

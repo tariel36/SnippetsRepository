@@ -25,6 +25,7 @@ Various containers.
 ## Guides
 Various guides, tutorials and articles.
 * [GooglePlay - Game deployment](/Guides/GooglePlay/ApplicationDeployment/README.md);
+* [Steamworks - Game deployment](/Guides/Steam/ApplicationDeployment/README.md);
 * [Live translation and transcribe by Microsoft Translate](/Guides/LiveTranslation/LiveTranslationWithTranscribe.md);
 * [SSMS - Example: Importing excel files](/Guides/SSMS/ImportingExcelFiles/README.md);
 * [SSRS - Example: Forced pagination](/Guides/SSRS/ForcedPagination/README.md);
