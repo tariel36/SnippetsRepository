@@ -2,6 +2,8 @@
 
 Big repository of codes for various languages, useful tools, and others.
 
+See also [pages](https://tariel36.github.io) for guides, lists, and other articles.
+
 ## Compile time libraries
 
 ### C# - NutaDev.CsLib
