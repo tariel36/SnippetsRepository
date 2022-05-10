@@ -20,16 +20,16 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.Gui.Commands;
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.Base;
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.View.Base;
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.View.Windows;
-using NutaDev.CSLib.Gui.Framework.WPF.Views.Dialogs.Abstract;
-using NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Abstract;
+using NutaDev.CsLib.Gui.Framework.Gui.Commands;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.Base;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.View.Base;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.View.Windows;
+using NutaDev.CsLib.Gui.Framework.WPF.Views.Dialogs.Abstract;
+using NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Abstract;
 using System;
 using System.Windows;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Specific.UniversalDialogWindow
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Specific.UniversalDialogWindow
 {
     /// <summary>
     /// View model for <see cref="UniversalDialog"/> window.

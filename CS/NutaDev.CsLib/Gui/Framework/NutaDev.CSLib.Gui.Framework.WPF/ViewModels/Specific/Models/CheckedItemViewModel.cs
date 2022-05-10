@@ -20,10 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.Models;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.Models;
 using System;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Specific.Models
+namespace NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Specific.Models
 {
     /// <summary>
     /// View model for check controls, like checkbox or radiobox.

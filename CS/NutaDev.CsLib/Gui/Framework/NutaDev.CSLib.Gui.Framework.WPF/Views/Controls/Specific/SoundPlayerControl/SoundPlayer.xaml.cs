@@ -29,7 +29,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Threading;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.SoundPlayerControl
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Controls.Specific.SoundPlayerControl
 {
     /// <summary>
     /// Interaction logic for SoundPlayer.xaml

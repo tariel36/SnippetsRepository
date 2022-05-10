@@ -20,11 +20,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.Gui.Commands;
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.View.Controls;
+using NutaDev.CsLib.Gui.Framework.Gui.Commands;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.View.Controls;
 using System.Collections.ObjectModel;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.GuidsGeneratorControl
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Controls.Specific.GuidsGeneratorControl
 {
     /// <summary>
     /// View model for <see cref="GuidsGeneratorControl"/>.

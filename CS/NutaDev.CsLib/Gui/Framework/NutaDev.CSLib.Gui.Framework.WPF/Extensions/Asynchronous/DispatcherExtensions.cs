@@ -23,7 +23,7 @@
 using System;
 using System.Windows.Threading;
 
-namespace NutaDev.CSLib.Gui.Framework.Gui.Extensions
+namespace NutaDev.CsLib.Gui.Framework.Gui.Extensions
 {
     /// <summary>
     /// Provides extension methods for <see cref="Dispatcher"/> class.

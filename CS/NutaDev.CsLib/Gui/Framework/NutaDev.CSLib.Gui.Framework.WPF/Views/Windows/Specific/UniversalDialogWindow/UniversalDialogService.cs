@@ -20,10 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Services.Abstract;
+using NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Services.Abstract;
 using System.Windows;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Specific.UniversalDialogWindow
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Specific.UniversalDialogWindow
 {
     /// <summary>
     /// Contains methods to work with <see cref="UniversalDialog"/>.

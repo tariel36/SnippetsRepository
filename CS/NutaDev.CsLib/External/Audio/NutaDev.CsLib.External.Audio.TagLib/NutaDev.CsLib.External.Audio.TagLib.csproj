@@ -26,7 +26,7 @@
     <ProjectReference Include="..\..\..\IO\NutaDev.CsLib.IO\NutaDev.CsLib.IO.csproj" />
     <ProjectReference Include="..\..\..\Maintenance\NutaDev.CsLib.Maintenance.Exceptions\NutaDev.CsLib.Maintenance.Exceptions.csproj" />
     <ProjectReference Include="..\..\..\Maintenance\NutaDev.CsLib.Maintenance\NutaDev.CsLib.Maintenance.csproj" />
-    <ProjectReference Include="..\..\..\Resources\NutaDev.CSLib.Resources\NutaDev.CsLib.Resources.csproj" />
+    <ProjectReference Include="..\..\..\Resources\NutaDev.CsLib.Resources\NutaDev.CsLib.Resources.csproj" />
   </ItemGroup>
 
 

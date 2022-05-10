@@ -20,9 +20,9 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.Gui.Dialogs.Models;
+using NutaDev.CsLib.Gui.Framework.Gui.Dialogs.Models;
 
-namespace NutaDev.CSLib.Gui.Framework.Gui.Dialogs.Services.Abstract
+namespace NutaDev.CsLib.Gui.Framework.Gui.Dialogs.Services.Abstract
 {
     /// <summary>
     /// Contains methods to work with dialogs.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -11,9 +11,9 @@
     <AssemblyName>NutaDev.CSLib.Gui.Framework.WinForms</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Deterministic>false</Deterministic>
-<PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,7 +23,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-<PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -32,16 +32,13 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-<PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="..\..\..\Internal\NutaDev.CsLib.Internal.Shared\App\SharedAssemblyInfo.cs">
       <Link>Properties\SharedAssemblyInfo.cs</Link>
     </Compile>
   </ItemGroup>
-
-
   <ItemGroup>
     <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\WindowsAPICodePack-Core.1.1.2\lib\Microsoft.WindowsAPICodePack.dll</HintPath>
@@ -64,18 +61,16 @@
     <Compile Include="Services\DialogService\Specific\DialogService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NutaDev.CSLib.Gui.Framework.Gui\NutaDev.CSLib.Gui.Framework.Gui.csproj">
+    <ProjectReference Include="..\NutaDev.CSLib.Gui.Framework.Gui\NutaDev.CsLib.Gui.Framework.Gui.csproj">
       <Project>{6b91e8af-c366-4ad4-b2c0-efacfe8ac51c}</Project>
-      <Name>NutaDev.CSLib.Gui.Framework.Gui</Name>
+      <Name>NutaDev.CsLib.Gui.Framework.Gui</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-
-            <ItemGroup>
-                <None Include="../../../../../LICENSE" Pack="true" Visible="false" PackagePath="" />
-            </ItemGroup>
-        
+  <ItemGroup>
+    <None Include="../../../../../LICENSE" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
 </Project>

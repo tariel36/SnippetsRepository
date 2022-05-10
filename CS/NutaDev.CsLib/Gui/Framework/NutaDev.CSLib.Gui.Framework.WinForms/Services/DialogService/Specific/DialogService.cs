@@ -21,11 +21,11 @@
 // SOFTWARE.
 
 using Microsoft.WindowsAPICodePack.Dialogs;
-using NutaDev.CSLib.Gui.Framework.Gui.Dialogs.Models;
-using NutaDev.CSLib.Gui.Framework.Gui.Dialogs.Services.Abstract;
+using NutaDev.CsLib.Gui.Framework.Gui.Dialogs.Models;
+using NutaDev.CsLib.Gui.Framework.Gui.Dialogs.Services.Abstract;
 using System.Windows.Forms;
 
-namespace NutaDev.CSLib.Gui.Framework.WinForms.Services.DialogService.Specific
+namespace NutaDev.CsLib.Gui.Framework.WinForms.Services.DialogService.Specific
 {
     /// <summary>
     /// Contains methods to work with dialogs.

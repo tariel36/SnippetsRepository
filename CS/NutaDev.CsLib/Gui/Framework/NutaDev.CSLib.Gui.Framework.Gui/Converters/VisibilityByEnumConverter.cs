@@ -26,7 +26,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace NutaDev.CSLib.Gui.Framework.Gui.Converters
+namespace NutaDev.CsLib.Gui.Framework.Gui.Converters
 {
     /// <summary>
     /// Converts <see cref="Enum"/> value to <see cref="Visibility"/>.

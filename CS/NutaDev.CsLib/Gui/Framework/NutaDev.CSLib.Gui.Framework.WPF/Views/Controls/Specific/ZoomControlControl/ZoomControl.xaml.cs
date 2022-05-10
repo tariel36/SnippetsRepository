@@ -25,7 +25,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.ZoomControlControl
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Controls.Specific.ZoomControlControl
 {
     /// <summary>
     /// Interaction logic for ZoomControl.xaml

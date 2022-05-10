@@ -24,7 +24,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.AttachedProperties.Controls.ListBox
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.AttachedProperties.Controls.ListBox
 {
     /// <summary>
     /// Attached property class that adds the SelectionChanged command (<see cref="ICommand"/>) to <see cref="ListBox"/>.

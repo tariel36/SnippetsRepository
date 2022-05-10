@@ -22,4 +22,4 @@
 
 using System.Reflection;
 
-[assembly: AssemblyTitle("NutaDev.CSLib.Gui.Framework.WFWPFIntegration")]
+[assembly: AssemblyTitle("NutaDev.CsLib.Gui.Framework.WFWPFIntegration")]

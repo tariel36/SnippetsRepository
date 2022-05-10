@@ -23,7 +23,7 @@
 using System.Windows;
 using System.Windows.Media;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Helpers
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Helpers
 {
     /// <summary>
     /// This class provides helper methods to operate on WPF visual tree.

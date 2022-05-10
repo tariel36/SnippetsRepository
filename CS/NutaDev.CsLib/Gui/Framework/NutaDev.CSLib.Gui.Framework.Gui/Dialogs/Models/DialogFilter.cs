@@ -22,7 +22,7 @@
 
 using System.Collections.Generic;
 
-namespace NutaDev.CSLib.Gui.Framework.Gui.Dialogs.Models
+namespace NutaDev.CsLib.Gui.Framework.Gui.Dialogs.Models
 {
     /// <summary>
     /// Filter class that contains filter text and extensions.

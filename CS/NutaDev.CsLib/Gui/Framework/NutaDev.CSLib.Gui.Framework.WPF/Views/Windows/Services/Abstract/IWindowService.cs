@@ -22,7 +22,7 @@
 
 using System.Windows;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Services.Abstract
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Services.Abstract
 {
     /// <summary>
     /// Service with properties and methods related to <see cref="Window"/> or windows in general.

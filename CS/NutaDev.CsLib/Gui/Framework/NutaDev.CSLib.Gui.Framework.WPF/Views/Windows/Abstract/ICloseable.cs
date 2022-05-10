@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Abstract
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Abstract
 {
     /// <summary>
     /// Allows classes to use <see cref="Close"/> method.

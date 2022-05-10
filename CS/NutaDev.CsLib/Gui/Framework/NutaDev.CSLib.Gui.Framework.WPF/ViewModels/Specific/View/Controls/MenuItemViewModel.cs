@@ -20,13 +20,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.Gui.Commands;
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.View.Controls;
+using NutaDev.CsLib.Gui.Framework.Gui.Commands;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.View.Controls;
 using System;
 using System.Collections.ObjectModel;
 using System.Windows.Media.Imaging;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Specific.View.Controls
+namespace NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Specific.View.Controls
 {
     /// <summary>
     /// MenuItem view model.

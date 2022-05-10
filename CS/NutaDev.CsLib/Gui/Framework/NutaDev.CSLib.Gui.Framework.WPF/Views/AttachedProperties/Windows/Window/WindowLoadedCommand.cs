@@ -23,7 +23,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.AttachedProperties.Windows.Window
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.AttachedProperties.Windows.Window
 {
     /// <summary>
     /// Wrappers for window events in form of commands.

@@ -24,7 +24,7 @@ using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.Base
+namespace NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.Base
 {
     /// <summary>
     /// Base class for all view models. Implements <see cref="INotifyPropertyChanged"/> and <see cref="INotifyPropertyChanging"/> interfaces.

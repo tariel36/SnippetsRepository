@@ -20,13 +20,13 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.Gui.Commands;
+using NutaDev.CsLib.Gui.Framework.Gui.Commands;
 using System;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Forms;
 
-namespace NutaDev.CSLib.Gui.Framework.WFWPFIntegration.View.Controls
+namespace NutaDev.CsLib.Gui.Framework.WFWPFIntegration.View.Controls
 {
     /// <summary>
     /// Interaction logic for WrappedPropertyGrid.xaml

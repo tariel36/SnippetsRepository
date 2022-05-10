@@ -28,7 +28,7 @@ using System.Collections.Specialized;
 using System.Windows;
 using System.Windows.Controls;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.AttachedProperties.Controls.DataGrid
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.AttachedProperties.Controls.DataGrid
 {
     /// <summary>
     /// <para>Provides behaviour for bindable columns.</para>

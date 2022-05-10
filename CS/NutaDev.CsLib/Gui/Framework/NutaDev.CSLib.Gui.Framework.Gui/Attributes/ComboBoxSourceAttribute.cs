@@ -25,7 +25,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace NutaDev.CSLib.Gui.Framework.Gui.Attributes
+namespace NutaDev.CsLib.Gui.Framework.Gui.Attributes
 {
     /// <summary>
     /// Indicates where to look for values with <see cref="PropertyToCollectionConverter"/>.

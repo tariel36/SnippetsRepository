@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 -->
 
-<UserControl x:Class="NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.VideoPlayerControl.VideoPlayer"
+<UserControl x:Class="NutaDev.CsLib.Gui.Framework.WPF.Views.Controls.Specific.VideoPlayerControl.VideoPlayer"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 

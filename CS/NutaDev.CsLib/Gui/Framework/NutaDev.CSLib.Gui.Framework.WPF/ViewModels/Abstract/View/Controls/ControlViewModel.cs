@@ -20,10 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.View.Base;
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.Base;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.View.Base;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.Base;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.View.Controls
+namespace NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.View.Controls
 {
     /// <summary>
     /// View model for controls.

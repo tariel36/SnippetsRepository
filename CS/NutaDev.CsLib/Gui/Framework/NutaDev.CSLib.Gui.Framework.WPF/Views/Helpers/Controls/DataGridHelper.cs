@@ -23,7 +23,7 @@
 using System.Windows.Controls;
 using System.Windows.Controls.Primitives;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Helpers.Controls
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Helpers.Controls
 {
     /// <summary>
     /// This class provides helper methods for <see cref="DataGrid"/> type.

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1622
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{EEE2CFA4-A40B-494C-B41D-28BD564AD8D7}"
 EndProject
@@ -95,13 +95,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NutaDev.CsLib.Reflection", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{907FC214-540D-4246-BA8A-37F5A27084ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CSLib.Gui.Framework.Gui", "Gui\Framework\NutaDev.CSLib.Gui.Framework.Gui\NutaDev.CSLib.Gui.Framework.Gui.csproj", "{6B91E8AF-C366-4AD4-B2C0-EFACFE8AC51C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Gui.Framework.Gui", "Gui\Framework\NutaDev.CSLib.Gui.Framework.Gui\NutaDev.CsLib.Gui.Framework.Gui.csproj", "{6B91E8AF-C366-4AD4-B2C0-EFACFE8AC51C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CSLib.Gui.Framework.WinForms", "Gui\Framework\NutaDev.CSLib.Gui.Framework.WinForms\NutaDev.CSLib.Gui.Framework.WinForms.csproj", "{7C3F693C-EB07-4708-9282-FE25B7F285DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Gui.Framework.WinForms", "Gui\Framework\NutaDev.CSLib.Gui.Framework.WinForms\NutaDev.CsLib.Gui.Framework.WinForms.csproj", "{7C3F693C-EB07-4708-9282-FE25B7F285DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CSLib.Gui.Framework.WPF", "Gui\Framework\NutaDev.CSLib.Gui.Framework.WPF\NutaDev.CSLib.Gui.Framework.WPF.csproj", "{FF88831B-D046-40C4-B998-D85A3B0863A9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Gui.Framework.WPF", "Gui\Framework\NutaDev.CSLib.Gui.Framework.WPF\NutaDev.CsLib.Gui.Framework.WPF.csproj", "{FF88831B-D046-40C4-B998-D85A3B0863A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CSLib.Gui.Framework.WFWPFIntegration", "Gui\Framework\NutaDev.CSLib.Gui.Framework.WFWPFIntegration\NutaDev.CSLib.Gui.Framework.WFWPFIntegration.csproj", "{8D894D16-A0E0-4F2B-BC5E-31CB57EDB539}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NutaDev.CsLib.Gui.Framework.WFWPFIntegration", "Gui\Framework\NutaDev.CSLib.Gui.Framework.WFWPFIntegration\NutaDev.CsLib.Gui.Framework.WFWPFIntegration.csproj", "{8D894D16-A0E0-4F2B-BC5E-31CB57EDB539}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{290271AD-2A74-450F-A5F0-9EB8F58C6FFE}"
 EndProject

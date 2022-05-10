@@ -28,7 +28,7 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Threading;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.VideoPlayerControl
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Controls.Specific.VideoPlayerControl
 {
     /// <summary>
     /// Interaction logic for VideoPlayer.xaml

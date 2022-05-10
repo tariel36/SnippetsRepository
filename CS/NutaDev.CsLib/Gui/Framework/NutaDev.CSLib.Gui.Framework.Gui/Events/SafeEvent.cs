@@ -23,7 +23,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace NutaDev.CSLib.Gui.Framework.Gui.Events
+namespace NutaDev.CsLib.Gui.Framework.Gui.Events
 {
     /// <summary>
     /// Safe event implementation that allows clearing of all handlers whether one knows about them or not.

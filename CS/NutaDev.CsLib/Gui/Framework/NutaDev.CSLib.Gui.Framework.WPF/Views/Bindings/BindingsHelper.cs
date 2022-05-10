@@ -23,7 +23,7 @@
 using System.Windows;
 using System.Windows.Data;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Bindings
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Bindings
 {
     /// <summary>
     /// This class provides helper methods for <see cref="BindingBase"/> and derived types.

@@ -23,7 +23,7 @@
 using System.Windows;
 using System.Windows.Input;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.AttachedProperties.Controls.DataGridRow
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.AttachedProperties.Controls.DataGridRow
 {
     /// <summary>
     /// This provides attached property that allows us to bind "double click on <see cref="DataGridRow"/>" command.

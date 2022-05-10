@@ -22,4 +22,4 @@
 
 using System.Reflection;
 
-[assembly: AssemblyTitle("NutaDev.CSLib.Gui.Framework.WinForms")]
+[assembly: AssemblyTitle("NutaDev.CsLib.Gui.Framework.WinForms")]

@@ -20,11 +20,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.WPF.Views.Dialogs.Abstract;
-using NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Abstract;
+using NutaDev.CsLib.Gui.Framework.WPF.Views.Dialogs.Abstract;
+using NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Abstract;
 using System.Windows;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Specific.UniversalDialogWindow
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Specific.UniversalDialogWindow
 {
     /// <summary>
     /// <para>This window is a universal dialog. Contains set of often used controls.</para>

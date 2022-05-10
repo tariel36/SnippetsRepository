@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Resources\NutaDev.CSLib.Resources\NutaDev.CsLib.Resources.csproj" />
+    <ProjectReference Include="..\..\Resources\NutaDev.CsLib.Resources\NutaDev.CsLib.Resources.csproj" />
     <ProjectReference Include="..\..\Structures\NutaDev.CsLib.Structures\NutaDev.CsLib.Structures.csproj" />
     <ProjectReference Include="..\..\Types\NutaDev.CsLib.Types\NutaDev.CsLib.Types.csproj" />
     <ProjectReference Include="..\NutaDev.CsLib.Maintenance.Exceptions\NutaDev.CsLib.Maintenance.Exceptions.csproj" />

@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Dialogs.Abstract
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Dialogs.Abstract
 {
     /// <summary>
     /// Interface that provides <see cref="DialogResult"/> property frequently used by dialog windows.

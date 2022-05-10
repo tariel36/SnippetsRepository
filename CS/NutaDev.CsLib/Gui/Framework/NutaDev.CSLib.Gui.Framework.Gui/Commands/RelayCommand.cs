@@ -23,7 +23,7 @@
 using System;
 using System.Windows.Input;
 
-namespace NutaDev.CSLib.Gui.Framework.Gui.Commands
+namespace NutaDev.CsLib.Gui.Framework.Gui.Commands
 {
     /// <summary>
     /// <para>The <see cref="RelayCommand"/> allows to bind command which action is provided by lambda expression or function delegate.</para>

@@ -24,7 +24,7 @@ using System.IO;
 using System.Text;
 using System.Windows;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.AttachedProperties.Controls.RichTextBox
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.AttachedProperties.Controls.RichTextBox
 {
     /// <summary>
     /// Attached property class that adds the RtfText property to <see cref="RichTextBox"/>.

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Core\NutaDev.CSLib.Core\NutaDev.CsLib.Core.csproj" />
+    <ProjectReference Include="..\..\..\Core\NutaDev.CsLib.Core\NutaDev.CsLib.Core.csproj" />
     <ProjectReference Include="..\..\..\Data\NutaDev.CsLib.Data.Database\NutaDev.CsLib.Data.Database.csproj" />
     <ProjectReference Include="..\..\..\Data\NutaDev.CsLib.Data\NutaDev.CsLib.Data.csproj" />
     <ProjectReference Include="..\..\..\External\Data\NutaDev.CsLib.External.Data.Database.SQLite\NutaDev.CsLib.External.Data.Database.SQLite.csproj" />

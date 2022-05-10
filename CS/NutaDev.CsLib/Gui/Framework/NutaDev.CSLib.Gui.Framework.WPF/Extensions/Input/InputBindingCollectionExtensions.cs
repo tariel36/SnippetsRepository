@@ -23,7 +23,7 @@
 using System;
 using System.Windows.Input;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Extensions.Input
+namespace NutaDev.CsLib.Gui.Framework.WPF.Extensions.Input
 {
     /// <summary>
     /// This class provides helper methods for <see cref="InputBindingCollection"/> and similiar types.

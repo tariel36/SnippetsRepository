@@ -20,8 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.Gui.Dialogs.Models;
-using NutaDev.CSLib.Gui.Framework.Gui.Dialogs.Services.Abstract;
+using NutaDev.CsLib.Gui.Framework.Gui.Dialogs.Models;
+using NutaDev.CsLib.Gui.Framework.Gui.Dialogs.Services.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,7 +37,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.FilePathPickerControl
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Controls.Specific.FilePathPickerControl
 {
     /// <summary>
     /// Interaction logic for FilePathPicker.xaml

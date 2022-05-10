@@ -22,7 +22,7 @@
 
 using System.Windows.Controls;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.GuidsGeneratorControl
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Controls.Specific.GuidsGeneratorControl
 {
     /// <summary>
     /// Interaction logic for GuidsGeneratorControl.xaml

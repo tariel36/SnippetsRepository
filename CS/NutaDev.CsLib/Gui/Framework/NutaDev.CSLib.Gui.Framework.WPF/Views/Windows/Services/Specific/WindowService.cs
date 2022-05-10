@@ -20,11 +20,11 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Services.Abstract;
+using NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Services.Abstract;
 using System.Linq;
 using System.Windows;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Windows.Services.Specific
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Windows.Services.Specific
 {
     /// <summary>
     /// Service with properties and methods related to <see cref="Window"/> or windows in general.

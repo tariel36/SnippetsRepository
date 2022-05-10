@@ -20,12 +20,12 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-using NutaDev.CSLib.Gui.Framework.Gui.Commands;
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.Models;
+using NutaDev.CsLib.Gui.Framework.Gui.Commands;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.Models;
 using System;
 using System.Windows;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Controls.Specific.GuidsGeneratorControl
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Controls.Specific.GuidsGeneratorControl
 {
     /// <summary>
     /// Single line with guid.

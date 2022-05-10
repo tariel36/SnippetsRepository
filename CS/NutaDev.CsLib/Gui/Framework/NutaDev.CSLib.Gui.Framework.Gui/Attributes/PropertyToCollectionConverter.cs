@@ -26,7 +26,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 
-namespace NutaDev.CSLib.Gui.Framework.Gui.Attributes
+namespace NutaDev.CsLib.Gui.Framework.Gui.Attributes
 {
     /// <summary>
     /// Converts collection specified by property name into items source for property grid.

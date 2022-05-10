@@ -21,7 +21,7 @@
 // SOFTWARE.
 
 using NutaDev.CsLib.Core.Interfaces;
-using NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Abstract.Models;
+using NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -29,7 +29,7 @@ using System.Diagnostics;
 using System.Linq;
 using NutaDev.CsLib.Collections.Extensions;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.ViewModels.Specific.Models
+namespace NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Specific.Models
 {
     /// <summary>
     /// View model for enum values.

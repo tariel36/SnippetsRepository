@@ -22,7 +22,7 @@
 
 using System.Windows;
 
-namespace NutaDev.CSLib.Gui.Framework.WPF.Views.Bindings
+namespace NutaDev.CsLib.Gui.Framework.WPF.Views.Bindings
 {
     /// <summary>
     /// <para>Proxy class for bindings between controls that are not part of visual or logical tree.</para>
