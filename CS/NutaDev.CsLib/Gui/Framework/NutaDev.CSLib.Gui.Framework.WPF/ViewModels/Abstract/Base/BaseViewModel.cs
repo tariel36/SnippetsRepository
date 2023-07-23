@@ -51,13 +51,21 @@ namespace NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.Base
         /// <param name="value">Value to set.</param>
         /// <param name="propertyName">Property name.</param>
         /// <returns>True if property has changed.</returns>
-        protected bool Set<T>(ref T field, T value, [CallerMemberName] string propertyName = null)
+        protected bool Set<T>(ref T field, T value, string[] dependantProperties = null, [CallerMemberName] string propertyName = null)
         {
             if (string.IsNullOrWhiteSpace(propertyName) || Equals(field, value)) { return false; }
 
             field = value;
 
             OnPropertyChanged(propertyName);
+
+            if (dependantProperties != null)
+            {
+                foreach (string property in dependantProperties)
+                {
+                    OnPropertyChanged(property);
+                }
+            }
 
             return true;
         }
@@ -71,13 +79,21 @@ namespace NutaDev.CsLib.Gui.Framework.WPF.ViewModels.Abstract.Base
         /// <param name="value">Value to set.</param>
         /// <param name="propertyName">Property name.</param>
         /// <returns>True if property has changed.</returns>
-        protected bool Set<T>(Func<T> getter, Action<T> setter, T value, [CallerMemberName] string propertyName = null)
+        protected bool Set<T>(Func<T> getter, Action<T> setter, T value, string[] dependantProperties = null, [CallerMemberName] string propertyName = null)
         {
             if (getter == null || setter == null || string.IsNullOrWhiteSpace(propertyName) || Equals(getter(), value)) { return false; }
 
             setter(value);
 
             OnPropertyChanged(propertyName);
+
+            if (dependantProperties != null)
+            {
+                foreach (string property in dependantProperties)
+                {
+                    OnPropertyChanged(property);
+                }
+            }
 
             return true;
         }
